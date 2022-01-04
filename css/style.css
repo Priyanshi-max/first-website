@@ -1,0 +1,211 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: cornsilk;
+    margin: auto;
+}
+.logo{
+float: left;
+padding: 15px; ;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: goldenrod;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  
+}
+.main-menu > ul> li{
+    display: inline;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+
+
+
+.drop{
+    list-style-type: none;
+    margin-left: 230px;
+    padding: 0px;
+    position:absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 470px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.content-holder{
+    background-color: royalblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: aliceblue;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+    border: 2px;;
+    background-color: brown;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.main-footer{
+    background-color: black;
+    margin: 0 auto;
+    color: aliceblue;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: teal;
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: aliceblue;
+}
+.copy p{
+    margin: 0px;
+}
+.content img{
+   max-width: 1000px;
+}
+
+.product{
+    
+    width: 209px;
+    height: auto;
+    float: inline-start;
+    
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+.product-caption p{
+  font-weight: bold;
+}
+.product-caption del{
+    color: red;
+}
+.product-caption ins{
+    color:green
+}
+.product-caption a{
+    display: block;
+    background-color: teal;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+.product-caption a:hover{
+    background-color:orangered
+}
+.Banner iframe{
+width: 100%;
+height: 400px;
+}
+
+
+
+
